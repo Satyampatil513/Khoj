@@ -1,3 +1,4 @@
+/* eslint-enable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import TripCard from './TripCard';
 import DatePicker from 'react-datepicker';
@@ -5,6 +6,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { FaSearch, FaTimes } from 'react-icons/fa';
 import Select from 'react-select';
 import { sendTripFormData, sendSuggestedPlacesRequest } from '../api/api';
+/* eslint-disable no-unused-vars */
 
 const HomePage = () => {
     const [startLocation, setStartLocation] = useState('');
