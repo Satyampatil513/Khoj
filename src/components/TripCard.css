@@ -1,0 +1,37 @@
+/* TripCard.css */
+.trip-card {
+    width: 100%; /* Make the card take full width */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #1f1f1f; /* Background color for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    display: flex; /* Use flexbox for layout if needed */
+    flex-direction: column; /* Arrange children in a column */
+}
+
+
+.edges, .nodes {
+    margin-top: 10px;
+}
+
+.map-container {
+    height: 400px; /* Adjust the height as needed */
+    width: 50%; /* Make it responsive to its container */
+    border-radius: 8px; /* Optional: for rounded corners */
+    overflow: hidden; /* Prevents overflow if content exceeds */
+}
+
+.edge, .node {
+    border: 1px dashed #888;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
